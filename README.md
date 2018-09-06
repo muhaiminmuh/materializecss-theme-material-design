@@ -13,7 +13,7 @@ Materialize Single Page Site Template Build From MaterializeCSS Framework
 ## Setup/Installation Requirements
 
 * Clone the project
-* Open file 'index.html'
+* Open file `index.html`
 
 ## Technologies Focused
 
