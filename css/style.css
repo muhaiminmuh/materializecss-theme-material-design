@@ -1,0 +1,143 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: white;
+}
+
+section {
+  padding: 20px 0;
+  margin-bottom: -20px;
+}
+
+.pKiri, .pKanan {
+  opacity: 0;
+  transform: translate(-130px, 0);
+  transition: 1.2s;
+}
+
+.pKanan {
+  transform: translate(130px, 0);
+}
+
+.pKiri.pMuncul, .pKanan.pMuncul {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+.services .card-panel {
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 1s;
+}
+
+.services .card-panel.muncul {
+  opacity: 1;
+  transform: translate(0,0);  
+}
+
+.image .thumbnail {
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: .3s;
+}
+
+.image .thumbnail.muncul { 
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+.contact {
+  padding-bottom: 150px;
+}
+
+.contact .cd1 {
+  opacity: 0;
+  transform: translate(-130px, 0);
+  transition: .7s;
+}
+
+.contact .cd2 {
+  opacity: 0;
+  transform: translate(130px, 0);
+  transition: .7s;
+}
+
+.cd1.muncul, .cd2.muncul {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+.parallax-container {
+  min-height: 200px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-header {
+  min-height: 320px;
+}
+
+.parallax-container h1, .parallax-container h5 {
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+}
+
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  .back-client img {
+    filter: grayscale();
+    opacity: 0.5 !important;
+  }
+
+.clients img {
+  max-width: 150px;
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+.slider h3, .slider h5, .clients h3 {
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+} 
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
