@@ -1,4 +1,4 @@
-# Materializecss Theme Material Template Design
+# Materializecss Theme Minimal Material Template Design
 
 
 Materialize Single Page Site Template Build From MaterializeCSS Framework
